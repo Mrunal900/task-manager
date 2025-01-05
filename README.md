@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+# Task Manager Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a **Task Management Web Application** designed to allow users to manage their tasks effectively. The application supports features such as adding, editing, deleting, and marking tasks as completed. It also integrates **local storage** to ensure task data persists across page reloads and uses **Bootstrap** for a responsive and visually appealing UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### 1. Add Tasks
+- Users can add tasks with the following details:
+  - Task name
+  - Description
+  - Due date
+- Form validation ensures all fields are required.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Edit Tasks
+- Users can edit existing tasks.
+- Form fields are pre-filled with the task data for easy modification.
+- Changes can be saved or canceled.
 
-### `npm run build`
+### 3. Delete Tasks
+- Users can remove tasks from the task list.
+- Includes an optional confirmation dialog for deletion.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Mark Tasks as Completed
+- Users can mark tasks as completed with a checkbox.
+- Completed tasks are visually distinguished using a strikethrough effect.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. Local Storage Persistence
+- Tasks persist across page reloads by leveraging **localStorage**.
+- The application retrieves tasks from localStorage on load and updates the storage whenever tasks are modified.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 6. Responsive UI with Bootstrap
+- Fully responsive design for desktop, tablet, and mobile devices.
+- Uses **Bootstrap's grid system** and components for a clean and intuitive layout.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend
+- **React** for building UI components and managing application state.
+- **Bootstrap** for styling and responsive design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### State Management
+- **React useState** for managing component state.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Persistence
+- **localStorage** for storing and retrieving task data.
 
-## Learn More
+### Other Libraries
+- **React Hooks** such as `useEffect` for synchronizing data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/task-manager.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Navigate to the project directory:
+   ```bash
+   cd task-manager
+   ```
 
-### Analyzing the Bundle Size
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+5. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Adding a Task
+- Click the **Add Task** button.
+- Fill in the task details in the form and submit.
 
-### Deployment
+### Editing a Task
+- Click the **Edit** button next to the task you want to modify.
+- Update the details in the form and save changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Deleting a Task
+- Click the **Delete** button next to the task you want to remove.
+- Confirm the deletion if prompted.
 
-### `npm run build` fails to minify
+### Marking a Task as Completed
+- Use the checkbox next to a task to mark it as completed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## File Structure
+
+```
+.
+├── public
+│   └── index.html
+├── src
+│   |── TaskItem.js
+│   |── TaskForm.js
+│   |── TaskList.js
+│   └── App.js
+├── package.json
+└── README.md
+```
+
+---
+
+## Roadmap
+
+### Future Enhancements
+- Add task categories and filters.
+- Implement drag-and-drop functionality for task reordering.
+- Integrate a backend API for multi-user support.
+- Add a priority feature for tasks.
+
+---
+
+## Acknowledgements
+
+- **React Documentation**: [React Docs](https://reactjs.org/docs/getting-started.html)
+- **Bootstrap Documentation**: [Bootstrap Docs](https://getbootstrap.com/docs/)
+
+---
+
+## Contact
+
+For any questions or feedback, please contact:
+- **Email**: mrunalwaghdhare786@gmail.com
+
