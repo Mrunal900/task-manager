@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mrunal900/task-manager/static/css/main.ca67ef22.css",
+    "main.js": "/Mrunal900/task-manager/static/js/main.4464428d.js",
+    "static/js/488.2f5d961e.chunk.js": "/Mrunal900/task-manager/static/js/488.2f5d961e.chunk.js",
+    "index.html": "/Mrunal900/task-manager/index.html",
+    "main.ca67ef22.css.map": "/Mrunal900/task-manager/static/css/main.ca67ef22.css.map",
+    "main.4464428d.js.map": "/Mrunal900/task-manager/static/js/main.4464428d.js.map",
+    "488.2f5d961e.chunk.js.map": "/Mrunal900/task-manager/static/js/488.2f5d961e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca67ef22.css",
+    "static/js/main.4464428d.js"
+  ]
+}
