@@ -6,6 +6,8 @@ This project is a **Task Management Web Application** designed to allow users to
 
 ---
 
+![image_alt](https://github.com/Mrunal900/task-manager/blob/4abf160e63fd52169501f0cfb245c44eb285a29d/Screenshot%20(28).png)
+
 
 
 ## Features
